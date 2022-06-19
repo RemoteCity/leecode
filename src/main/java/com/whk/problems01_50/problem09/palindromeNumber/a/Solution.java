@@ -1,4 +1,4 @@
-package com.whk.problems01_50.problems09.palindromeNumber.a;
+package com.whk.problems01_50.problem09.palindromeNumber.a;
 
 public class Solution {
     public boolean isPalindrome(int x) {

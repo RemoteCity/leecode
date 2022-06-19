@@ -1,4 +1,4 @@
-package com.whk.problems01_50.problems08.stringToTnteger_atoi.a;
+package com.whk.problems01_50.problem08.stringToTnteger_atoi.a;
 
 public class Solution {
     public int myAtoi(String s) {

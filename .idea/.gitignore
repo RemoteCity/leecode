@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+target/
+.idea/
+# Datasource local storage ignored files
+/../../../../:\GitHubRepo\leecode\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
