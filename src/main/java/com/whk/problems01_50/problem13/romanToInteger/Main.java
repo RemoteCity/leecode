@@ -1,7 +1,7 @@
 package com.whk.problems01_50.problem13.romanToInteger;
 
 
-import com.whk.problems01_50.problem13.romanToInteger.a.Solution;
+import com.whk.problems01_50.problem13.romanToInteger.c.Solution;
 
 /**
  * Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -52,7 +52,7 @@ import com.whk.problems01_50.problem13.romanToInteger.a.Solution;
 public class Main {
     public static void main(String[] args) {
         Solution solution=new Solution();
-        int mcmxciv = solution.romanToInt("III");
+        int mcmxciv = solution.romanToInt("MCMXCIV");
         System.out.println(mcmxciv);
     }
 }
