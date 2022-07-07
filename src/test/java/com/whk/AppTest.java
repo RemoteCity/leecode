@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * Unit test for simple App.
  */
@@ -19,6 +22,7 @@ public class AppTest
     }
     @Test
     public void shouldAnswerWithTru() {
-
+        List<String> stringList = new LinkedList<>();
+        stringList.stream().forEach(e-> System.out.println(e));
     }
 }
