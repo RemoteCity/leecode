@@ -14,7 +14,8 @@ public class Solution {
     public int firstMissingPositive(int[] nums) {
         // 确定最大的数
         int n = nums.length;
-        // 第一次遍历，将没有价值的值替换成length，这样他的值就可以用来当作数组的下标。
+        // 第一次遍历，将没有价值的值替换成length + 1，这样他的值就可以用来当作数组的下标。
+        // 这层遍历也可以不走，在第二次遍历的时候加一个判断也行
         for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
 
